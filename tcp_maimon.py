@@ -1,28 +1,40 @@
+#!/usr/bin/python
 from scapy.layers.inet import IP, TCP, ICMP
 from scapy.packet import Packet
 from scapy.sendrecv import sr1, sr
 
-targets = '127.0.0.1'
-ports = 80
-#ports = (1,100)
-#ports = [80, 8080]
+ip = '192.168.33.129'
+ports = (1,1024)
+flags = 'FA'
 
-def test_port(ip: str, port: int) -> str:
-    ans = sr1(IP(dst=ip)/TCP(dport=port, flags='FA'),
-              retry=1, timeout=1, threaded=True)
-    if not ans:
-        return "open|filtered"
-    elif ans.haslayer(TCP):
-        flags = ans.getlayer(TCP).flags
-        if flags.R:
-            return "closed"
-    elif ans.haslayer(ICMP):
-        icmp_type = ans.getlayer(ICMP).type
-        icmp_code = int(ans.getlayer(ICMP).code)
-        if icmp_type == 3 and icmp_code in [1, 2, 3, 9, 10, 13]:
-            return "filetered"
+ans, unans = sr(IP(dst=ip)/TCP(dport=ports, flags=flags),
+         retry=1, timeout=1, threaded=True, verbose=0)
 
-for target in targets:
-    for port in ports:
-        ans = test_port(ip=target, port=port)
-        print(f'{target}:{port} is {ans}')
+tcp_ans = ans.filter(lambda s, r: r.haslayer(TCP))
+
+r_ans = tcp_ans.filter(lambda s, r: r[TCP].flags.R)
+           
+icmp_ans = ans.filter(lambda s,r: r.haslayer(ICMP))
+unreachable_ans = icmp_ans.filter(
+    lambda s, r: r[ICMP].type == 3 and
+                 int(r[ICMP].code) in [1, 2, 3, 9, 10, 13]
+)
+
+open_filtered_ans = unans
+closed_ans = r_ans
+filtered_ans = unreachable_ans
+unfiltered_ans = []
+
+print('open|filtered:', len(open_filtered_ans))
+print('closed:', len(closed_ans))
+print('filtered:', len(filtered_ans),
+      '(unreachable:', len(unreachable_ans), ')')
+print('unfiletered:', len(unfiltered_ans))
+
+print('port\tstatus\tservice')
+open_filtered_ans.filter(
+    lambda s: s.sprintf('%r,TCP.dport%') != s.sprintf('%TCP.dport%')
+).summary(
+    lambda s: s.sprintf('%r,TCP.dport%\topen|filtered\t%TCP.dport%')
+)
+
