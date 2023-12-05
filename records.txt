@@ -1,0 +1,994 @@
+TCP SYN:
+
+Scanned in 145.83201050758362 s
+used memory: 474.5625 MB
+used CPU: 3.6639999999999997
+open: 30
+closed: 65505
+filtered: 0 (unanswered: 0 unreachable: 0 )
+unfiletered: 0
+port    status  service
+21      open    ftp
+22      open    ssh
+23      open    telnet
+25      open    smtp
+53      open    domain
+80      open    http
+111     open    sunrpc
+139     open    netbios_ssn
+445     open    microsoft_ds
+512     open    exec
+513     open    login
+514     open    shell
+1099    open    rmiregistry
+1524    open    ingreslock
+2049    open    nfs
+2121    open    iprop
+3306    open    mysql
+3632    open    distcc
+5432    open    postgresql
+5900    open    5900
+6000    open    x11
+6667    open    ircd
+6697    open    ircs_u
+8009    open    8009
+8180    open    8180
+8787    open    8787
+39773   open    39773
+54399   open    54399
+57454   open    57454
+58594   open    58594
+
+Scanned in 160.20908784866333 s
+used memory: 473.875 MB
+used CPU: 3.676
+open: 30
+closed: 65505
+filtered: 0 (unanswered: 0 unreachable: 0 )
+unfiletered: 0
+port    status  service
+21      open    ftp
+22      open    ssh
+23      open    telnet
+25      open    smtp
+53      open    domain
+80      open    http
+111     open    sunrpc
+139     open    netbios_ssn
+445     open    microsoft_ds
+512     open    exec
+513     open    login
+514     open    shell
+1099    open    rmiregistry
+1524    open    ingreslock
+2049    open    nfs
+2121    open    iprop
+3306    open    mysql
+3632    open    distcc
+5432    open    postgresql
+5900    open    5900
+6000    open    x11
+6667    open    ircd
+6697    open    ircs_u
+8009    open    8009
+8180    open    8180
+8787    open    8787
+39773   open    39773
+54399   open    54399
+57454   open    57454
+58594   open    58594
+
+Scanned in 141.21274662017822 s
+used memory: 474.44140625 MB
+used CPU: 3.66
+open: 30
+closed: 65505
+filtered: 0 (unanswered: 0 unreachable: 0 )
+unfiletered: 0
+port    status  service
+21      open    ftp
+22      open    ssh
+23      open    telnet
+25      open    smtp
+53      open    domain
+80      open    http
+111     open    sunrpc
+139     open    netbios_ssn
+445     open    microsoft_ds
+512     open    exec
+513     open    login
+514     open    shell
+1099    open    rmiregistry
+1524    open    ingreslock
+2049    open    nfs
+2121    open    iprop
+3306    open    mysql
+3632    open    distcc
+5432    open    postgresql
+5900    open    5900
+6000    open    x11
+6667    open    ircd
+6697    open    ircs_u
+8009    open    8009
+8180    open    8180
+8787    open    8787
+39773   open    39773
+54399   open    54399
+57454   open    57454
+58594   open    58594
+
+TCP ACK:
+
+Scanned in 119.40836977958679 s
+used memory: 474.60546875 MB
+used CPU: 3.66
+open: 0
+closed: 0
+filtered: 0 (unanswered: 0 unreachable: 0 )
+unfiletered: 65535
+port    status  service
+
+Scanned in 116.4447762966156 s
+used memory: 474.27734375 MB
+used CPU: 3.6639999999999997
+open: 0
+closed: 0
+filtered: 0 (unanswered: 0 unreachable: 0 )
+unfiletered: 65535
+port    status  service
+
+Scanned in 118.69312191009521 s
+used memory: 474.3359375 MB
+used CPU: 3.6719999999999997
+open: 0
+closed: 0
+filtered: 0 (unanswered: 0 unreachable: 0 )
+unfiletered: 65535
+port    status  service
+
+TCP FIN:
+
+Scanned in 217.36170959472656 s
+used memory: 474.21875 MB
+used CPU: 2.428
+open|filtered: 30
+closed: 65505
+filtered: 0 (unreachable: 0 )
+unfiletered: 0
+port    status  service
+21      open|filtered   ftp
+22      open|filtered   ssh
+23      open|filtered   telnet
+25      open|filtered   smtp
+53      open|filtered   domain
+80      open|filtered   http
+111     open|filtered   sunrpc
+139     open|filtered   netbios_ssn
+445     open|filtered   microsoft_ds
+512     open|filtered   exec
+513     open|filtered   login
+514     open|filtered   shell
+1099    open|filtered   rmiregistry
+1524    open|filtered   ingreslock
+2049    open|filtered   nfs
+2121    open|filtered   iprop
+3306    open|filtered   mysql
+3632    open|filtered   distcc
+5432    open|filtered   postgresql
+5900    open|filtered   5900
+6000    open|filtered   x11
+6667    open|filtered   ircd
+6697    open|filtered   ircs_u
+8009    open|filtered   8009
+8180    open|filtered   8180
+8787    open|filtered   8787
+39773   open|filtered   39773
+54399   open|filtered   54399
+57454   open|filtered   57454
+58594   open|filtered   58594
+
+Scanned in 207.37768578529358 s
+used memory: 474.3828125 MB
+used CPU: 2.072
+open|filtered: 30
+closed: 65505
+filtered: 0 (unreachable: 0 )
+unfiletered: 0
+port    status  service
+21      open|filtered   ftp
+22      open|filtered   ssh
+23      open|filtered   telnet
+25      open|filtered   smtp
+53      open|filtered   domain
+80      open|filtered   http
+111     open|filtered   sunrpc
+139     open|filtered   netbios_ssn
+445     open|filtered   microsoft_ds
+512     open|filtered   exec
+513     open|filtered   login
+514     open|filtered   shell
+1099    open|filtered   rmiregistry
+1524    open|filtered   ingreslock
+2049    open|filtered   nfs
+2121    open|filtered   iprop
+3306    open|filtered   mysql
+3632    open|filtered   distcc
+5432    open|filtered   postgresql
+5900    open|filtered   5900
+6000    open|filtered   x11
+6667    open|filtered   ircd
+6697    open|filtered   ircs_u
+8009    open|filtered   8009
+8180    open|filtered   8180
+8787    open|filtered   8787
+39773   open|filtered   39773
+54399   open|filtered   54399
+57454   open|filtered   57454
+58594   open|filtered   58594
+
+Scanned in 209.75979781150818 s
+used memory: 474.2421875 MB
+used CPU: 2.128
+open|filtered: 30
+closed: 65505
+filtered: 0 (unreachable: 0 )
+unfiletered: 0
+port    status  service
+21      open|filtered   ftp
+22      open|filtered   ssh
+23      open|filtered   telnet
+25      open|filtered   smtp
+53      open|filtered   domain
+80      open|filtered   http
+111     open|filtered   sunrpc
+139     open|filtered   netbios_ssn
+445     open|filtered   microsoft_ds
+512     open|filtered   exec
+513     open|filtered   login
+514     open|filtered   shell
+1099    open|filtered   rmiregistry
+1524    open|filtered   ingreslock
+2049    open|filtered   nfs
+2121    open|filtered   iprop
+3306    open|filtered   mysql
+3632    open|filtered   distcc
+5432    open|filtered   postgresql
+5900    open|filtered   5900
+6000    open|filtered   x11
+6667    open|filtered   ircd
+6697    open|filtered   ircs_u
+8009    open|filtered   8009
+8180    open|filtered   8180
+8787    open|filtered   8787
+39773   open|filtered   39773
+54399   open|filtered   54399
+57454   open|filtered   57454
+58594   open|filtered   58594
+
+TCP Null:
+
+Scanned in 227.07461214065552 s
+used memory: 473.80859375 MB
+used CPU: 2.736
+open|filtered: 30
+closed: 65505
+filtered: 0 (unreachable: 0 )
+unfiletered: 0
+port    status  service
+21      open|filtered   ftp
+22      open|filtered   ssh
+23      open|filtered   telnet
+25      open|filtered   smtp
+53      open|filtered   domain
+80      open|filtered   http
+111     open|filtered   sunrpc
+139     open|filtered   netbios_ssn
+445     open|filtered   microsoft_ds
+512     open|filtered   exec
+513     open|filtered   login
+514     open|filtered   shell
+1099    open|filtered   rmiregistry
+1524    open|filtered   ingreslock
+2049    open|filtered   nfs
+2121    open|filtered   iprop
+3306    open|filtered   mysql
+3632    open|filtered   distcc
+5432    open|filtered   postgresql
+5900    open|filtered   5900
+6000    open|filtered   x11
+6667    open|filtered   ircd
+6697    open|filtered   ircs_u
+8009    open|filtered   8009
+8180    open|filtered   8180
+8787    open|filtered   8787
+39773   open|filtered   39773
+54399   open|filtered   54399
+57454   open|filtered   57454
+58594   open|filtered   58594
+
+Scanned in 235.30015206336975 s
+used memory: 475.25 MB
+used CPU: 2.804
+open|filtered: 30
+closed: 65505
+filtered: 0 (unreachable: 0 )
+unfiletered: 0
+port    status  service
+21      open|filtered   ftp
+22      open|filtered   ssh
+23      open|filtered   telnet
+25      open|filtered   smtp
+53      open|filtered   domain
+80      open|filtered   http
+111     open|filtered   sunrpc
+139     open|filtered   netbios_ssn
+445     open|filtered   microsoft_ds
+512     open|filtered   exec
+513     open|filtered   login
+514     open|filtered   shell
+1099    open|filtered   rmiregistry
+1524    open|filtered   ingreslock
+2049    open|filtered   nfs
+2121    open|filtered   iprop
+3306    open|filtered   mysql
+3632    open|filtered   distcc
+5432    open|filtered   postgresql
+5900    open|filtered   5900
+6000    open|filtered   x11
+6667    open|filtered   ircd
+6697    open|filtered   ircs_u
+8009    open|filtered   8009
+8180    open|filtered   8180
+8787    open|filtered   8787
+39773   open|filtered   39773
+54399   open|filtered   54399
+57454   open|filtered   57454
+58594   open|filtered   58594
+
+Scanned in 225.85364985466003 s
+used memory: 473.6640625 MB
+used CPU: 2.64
+open|filtered: 30
+closed: 65505
+filtered: 0 (unreachable: 0 )
+unfiletered: 0
+port    status  service
+21      open|filtered   ftp
+22      open|filtered   ssh
+23      open|filtered   telnet
+25      open|filtered   smtp
+53      open|filtered   domain
+80      open|filtered   http
+111     open|filtered   sunrpc
+139     open|filtered   netbios_ssn
+445     open|filtered   microsoft_ds
+512     open|filtered   exec
+513     open|filtered   login
+514     open|filtered   shell
+1099    open|filtered   rmiregistry
+1524    open|filtered   ingreslock
+2049    open|filtered   nfs
+2121    open|filtered   iprop
+3306    open|filtered   mysql
+3632    open|filtered   distcc
+5432    open|filtered   postgresql
+5900    open|filtered   5900
+6000    open|filtered   x11
+6667    open|filtered   ircd
+6697    open|filtered   ircs_u
+8009    open|filtered   8009
+8180    open|filtered   8180
+8787    open|filtered   8787
+39773   open|filtered   39773
+54399   open|filtered   54399
+57454   open|filtered   57454
+58594   open|filtered   58594
+
+TCP Xmas:
+
+Scanned in 229.06585788726807 s
+used memory: 473.0703125 MB
+used CPU: 2.86
+open|filtered: 30
+closed: 65505
+filtered: 0 (unreachable: 0 )
+unfiletered: 0
+port    status  service
+21      open|filtered   ftp
+22      open|filtered   ssh
+23      open|filtered   telnet
+25      open|filtered   smtp
+53      open|filtered   domain
+80      open|filtered   http
+111     open|filtered   sunrpc
+139     open|filtered   netbios_ssn
+445     open|filtered   microsoft_ds
+512     open|filtered   exec
+513     open|filtered   login
+514     open|filtered   shell
+1099    open|filtered   rmiregistry
+1524    open|filtered   ingreslock
+2049    open|filtered   nfs
+2121    open|filtered   iprop
+3306    open|filtered   mysql
+3632    open|filtered   distcc
+5432    open|filtered   postgresql
+5900    open|filtered   5900
+6000    open|filtered   x11
+6667    open|filtered   ircd
+6697    open|filtered   ircs_u
+8009    open|filtered   8009
+8180    open|filtered   8180
+8787    open|filtered   8787
+39773   open|filtered   39773
+54399   open|filtered   54399
+57454   open|filtered   57454
+58594   open|filtered   58594
+
+Scanned in 224.38540697097778 s
+used memory: 473.64453125 MB
+used CPU: 3.048
+open|filtered: 30
+closed: 65505
+filtered: 0 (unreachable: 0 )
+unfiletered: 0
+port    status  service
+21      open|filtered   ftp
+22      open|filtered   ssh
+23      open|filtered   telnet
+25      open|filtered   smtp
+53      open|filtered   domain
+80      open|filtered   http
+111     open|filtered   sunrpc
+139     open|filtered   netbios_ssn
+445     open|filtered   microsoft_ds
+512     open|filtered   exec
+513     open|filtered   login
+514     open|filtered   shell
+1099    open|filtered   rmiregistry
+1524    open|filtered   ingreslock
+2049    open|filtered   nfs
+2121    open|filtered   iprop
+3306    open|filtered   mysql
+3632    open|filtered   distcc
+5432    open|filtered   postgresql
+5900    open|filtered   5900
+6000    open|filtered   x11
+6667    open|filtered   ircd
+6697    open|filtered   ircs_u
+8009    open|filtered   8009
+8180    open|filtered   8180
+8787    open|filtered   8787
+39773   open|filtered   39773
+54399   open|filtered   54399
+57454   open|filtered   57454
+58594   open|filtered   58594
+
+Scanned in 228.66447830200195 s
+used memory: 473.765625 MB
+used CPU: 2.748
+open|filtered: 30
+closed: 65505
+filtered: 0 (unreachable: 0 )
+unfiletered: 0
+port    status  service
+21      open|filtered   ftp
+22      open|filtered   ssh
+23      open|filtered   telnet
+25      open|filtered   smtp
+53      open|filtered   domain
+80      open|filtered   http
+111     open|filtered   sunrpc
+139     open|filtered   netbios_ssn
+445     open|filtered   microsoft_ds
+512     open|filtered   exec
+513     open|filtered   login
+514     open|filtered   shell
+1099    open|filtered   rmiregistry
+1524    open|filtered   ingreslock
+2049    open|filtered   nfs
+2121    open|filtered   iprop
+3306    open|filtered   mysql
+3632    open|filtered   distcc
+5432    open|filtered   postgresql
+5900    open|filtered   5900
+6000    open|filtered   x11
+6667    open|filtered   ircd
+6697    open|filtered   ircs_u
+8009    open|filtered   8009
+8180    open|filtered   8180
+8787    open|filtered   8787
+39773   open|filtered   39773
+54399   open|filtered   54399
+57454   open|filtered   57454
+58594   open|filtered   58594
+
+TCP Maimon:
+
+Scanned in 179.78385996818542 s
+used memory: 473.7265625 MB
+used CPU: 3.7119999999999997
+open|filtered: 0
+closed: 65535
+filtered: 0 (unreachable: 0 )
+unfiletered: 0
+port    status  service
+
+Scanned in 160.26520466804504 s
+used memory: 473.87890625 MB
+used CPU: 3.7119999999999997
+open|filtered: 0
+closed: 65535
+filtered: 0 (unreachable: 0 )
+unfiletered: 0
+port    status  service
+
+Scanned in 164.64922523498535 s
+used memory: 473.80859375 MB
+used CPU: 3.7119999999999997
+open|filtered: 0
+closed: 65535
+filtered: 0 (unreachable: 0 )
+unfiletered: 0
+port    status  service
+
+TCP Window:
+
+Scanned in 155.48055624961853 s
+used memory: 474.52734375 MB
+used CPU: 3.7119999999999997
+open: 0
+closed: 65535
+filtered: 0 (unanswered: 0 unreachable: 0 )
+unfiletered: 65535
+port    status  service
+
+Scanned in 157.97620034217834 s
+used memory: 474.671875 MB
+used CPU: 3.7
+open: 0
+closed: 65535
+filtered: 0 (unanswered: 0 unreachable: 0 )
+unfiletered: 65535
+port    status  service
+
+Scanned in 162.438054561615 s
+used memory: 474.28515625 MB
+used CPU: 3.7119999999999997
+open: 0
+closed: 65535
+filtered: 0 (unanswered: 0 unreachable: 0 )
+unfiletered: 65535
+port    status  service
+
+TCP Connect:
+
+Scanned in 165.78246021270752 s
+used memory: 473.95703125 MB
+used CPU: 3.6919999999999997
+open: 30
+closed: 65505
+filtered: 0 (unanswered: 0 unreachable: 0 )
+unfiletered: 0
+port    status  service
+21      open    ftp
+22      open    ssh
+23      open    telnet
+25      open    smtp
+53      open    domain
+80      open    http
+111     open    sunrpc
+139     open    netbios_ssn
+445     open    microsoft_ds
+512     open    exec
+513     open    login
+514     open    shell
+1099    open    rmiregistry
+1524    open    ingreslock
+2049    open    nfs
+2121    open    iprop
+3306    open    mysql
+3632    open    distcc
+5432    open    postgresql
+5900    open    5900
+6000    open    x11
+6667    open    ircd
+6697    open    ircs_u
+8009    open    8009
+8180    open    8180
+8787    open    8787
+39773   open    39773
+54399   open    54399
+57454   open    57454
+58594   open    58594
+
+Scanned in 170.460755109787 s
+used memory: 474.08984375 MB
+used CPU: 3.68
+open: 30
+closed: 65505
+filtered: 0 (unanswered: 0 unreachable: 0 )
+unfiletered: 0
+port    status  service
+21      open    ftp
+22      open    ssh
+23      open    telnet
+25      open    smtp
+53      open    domain
+80      open    http
+111     open    sunrpc
+139     open    netbios_ssn
+445     open    microsoft_ds
+512     open    exec
+513     open    login
+514     open    shell
+1099    open    rmiregistry
+1524    open    ingreslock
+2049    open    nfs
+2121    open    iprop
+3306    open    mysql
+3632    open    distcc
+5432    open    postgresql
+5900    open    5900
+6000    open    x11
+6667    open    ircd
+6697    open    ircs_u
+8009    open    8009
+8180    open    8180
+8787    open    8787
+39773   open    39773
+54399   open    54399
+57454   open    57454
+58594   open    58594
+
+Scanned in 160.2116711139679 s
+used memory: 474.2890625 MB
+used CPU: 3.688
+open: 30
+closed: 65505
+filtered: 0 (unanswered: 0 unreachable: 0 )
+unfiletered: 0
+port    status  service
+21      open    ftp
+22      open    ssh
+23      open    telnet
+25      open    smtp
+53      open    domain
+80      open    http
+111     open    sunrpc
+139     open    netbios_ssn
+445     open    microsoft_ds
+512     open    exec
+513     open    login
+514     open    shell
+1099    open    rmiregistry
+1524    open    ingreslock
+2049    open    nfs
+2121    open    iprop
+3306    open    mysql
+3632    open    distcc
+5432    open    postgresql
+5900    open    5900
+6000    open    x11
+6667    open    ircd
+6697    open    ircs_u
+8009    open    8009
+8180    open    8180
+8787    open    8787
+39773   open    39773
+54399   open    54399
+57454   open    57454
+58594   open    58594
+
+UDP:
+
+Scanned in 347.5500919818878 s
+used memory: 167.48046875 MB
+used CPU: 3.6519999999999997
+open|filtered: 65334
+closed: 201
+filtered: 0 (unreachable: 0 )
+unfiletered: 0
+port    status  service
+7       open|filtered   echo
+9       open|filtered   discard
+13      open|filtered   daytime
+19      open|filtered   chargen
+21      open|filtered   fsp
+37      open|filtered   time
+49      open|filtered   tacacs
+53      open|filtered   domain
+67      open|filtered   bootps
+68      open|filtered   bootpc
+69      open|filtered   tftp
+88      open|filtered   kerberos
+111     open|filtered   sunrpc
+123     open|filtered   ntp
+137     open|filtered   netbios_ns
+138     open|filtered   netbios_dgm
+161     open|filtered   snmp
+162     open|filtered   snmp_trap
+163     open|filtered   cmip_man
+164     open|filtered   cmip_agent
+177     open|filtered   xdmcp
+213     open|filtered   ipx
+319     open|filtered   ptp_event
+320     open|filtered   ptp_general
+369     open|filtered   rpc2portmap
+370     open|filtered   codaauth2
+371     open|filtered   clearcase
+389     open|filtered   ldap
+427     open|filtered   svrloc
+443     open|filtered   https
+464     open|filtered   kpasswd
+500     open|filtered   isakmp
+512     open|filtered   biff
+513     open|filtered   who
+514     open|filtered   syslog
+517     open|filtered   talk
+518     open|filtered   ntalk
+520     open|filtered   route
+538     open|filtered   gdomap
+546     open|filtered   dhcpv6_client
+547     open|filtered   dhcpv6_server
+554     open|filtered   rtsp
+623     open|filtered   asf_rmcp
+636     open|filtered   ldaps
+646     open|filtered   ldp
+655     open|filtered   tinc
+750     open|filtered   kerberos4
+751     open|filtered   kerberos_master
+752     open|filtered   passwd_server
+779     open|filtered   moira_ureg
+853     open|filtered   domain_s
+1194    open|filtered   openvpn
+1210    open|filtered   predict
+1434    open|filtered   ms_sql_m
+1645    open|filtered   datametrics
+1646    open|filtered   sa_msg_port
+1701    open|filtered   l2f
+1812    open|filtered   radius
+1813    open|filtered   radius_acct
+2049    open|filtered   nfs
+2086    open|filtered   gnunet
+2101    open|filtered   rtcm_sc104
+2102    open|filtered   zephyr_srv
+2103    open|filtered   zephyr_clt
+2104    open|filtered   zephyr_hm
+2430    open|filtered   venus
+2431    open|filtered   venus_se
+2432    open|filtered   codasrv
+2433    open|filtered   codasrv_se
+2583    open|filtered   mon
+3130    open|filtered   icpv2
+3205    open|filtered   isns
+3493    open|filtered   nut
+4500    open|filtered   ipsec_nat_t
+4569    open|filtered   iax
+5060    open|filtered   sip
+5061    open|filtered   sip_tls
+5353    open|filtered   mdns
+5555    open|filtered   rplay
+6346    open|filtered   gnutella_svc
+6347    open|filtered   gnutella_rtr
+6696    open|filtered   babel
+7000    open|filtered   afs3_fileserver
+7001    open|filtered   afs3_callback
+7002    open|filtered   afs3_prserver
+7003    open|filtered   afs3_vlserver
+7004    open|filtered   afs3_kaserver
+7005    open|filtered   afs3_volser
+7007    open|filtered   afs3_bos
+7008    open|filtered   afs3_update
+7009    open|filtered   afs3_rmtsys
+17001   open|filtered   sgi_cmsd
+17002   open|filtered   sgi_crsd
+17003   open|filtered   sgi_gcd
+27374   open|filtered   asp
+
+Scanned in 344.97786235809326 s
+used memory: 167.48046875 MB
+used CPU: 3.64
+open|filtered: 65327
+closed: 208
+filtered: 0 (unreachable: 0 )
+unfiletered: 0
+port    status  service
+7       open|filtered   echo
+9       open|filtered   discard
+13      open|filtered   daytime
+19      open|filtered   chargen
+21      open|filtered   fsp
+37      open|filtered   time
+49      open|filtered   tacacs
+53      open|filtered   domain
+67      open|filtered   bootps
+68      open|filtered   bootpc
+69      open|filtered   tftp
+88      open|filtered   kerberos
+111     open|filtered   sunrpc
+123     open|filtered   ntp
+137     open|filtered   netbios_ns
+138     open|filtered   netbios_dgm
+161     open|filtered   snmp
+162     open|filtered   snmp_trap
+163     open|filtered   cmip_man
+164     open|filtered   cmip_agent
+177     open|filtered   xdmcp
+213     open|filtered   ipx
+319     open|filtered   ptp_event
+320     open|filtered   ptp_general
+369     open|filtered   rpc2portmap
+370     open|filtered   codaauth2
+371     open|filtered   clearcase
+389     open|filtered   ldap
+427     open|filtered   svrloc
+443     open|filtered   https
+464     open|filtered   kpasswd
+500     open|filtered   isakmp
+512     open|filtered   biff
+513     open|filtered   who
+514     open|filtered   syslog
+518     open|filtered   ntalk
+520     open|filtered   route
+538     open|filtered   gdomap
+546     open|filtered   dhcpv6_client
+547     open|filtered   dhcpv6_server
+554     open|filtered   rtsp
+623     open|filtered   asf_rmcp
+636     open|filtered   ldaps
+646     open|filtered   ldp
+655     open|filtered   tinc
+750     open|filtered   kerberos4
+751     open|filtered   kerberos_master
+752     open|filtered   passwd_server
+779     open|filtered   moira_ureg
+853     open|filtered   domain_s
+1194    open|filtered   openvpn
+1210    open|filtered   predict
+1434    open|filtered   ms_sql_m
+1645    open|filtered   datametrics
+1646    open|filtered   sa_msg_port
+1701    open|filtered   l2f
+1812    open|filtered   radius
+1813    open|filtered   radius_acct
+2049    open|filtered   nfs
+2086    open|filtered   gnunet
+2101    open|filtered   rtcm_sc104
+2102    open|filtered   zephyr_srv
+2103    open|filtered   zephyr_clt
+2104    open|filtered   zephyr_hm
+2430    open|filtered   venus
+2431    open|filtered   venus_se
+2432    open|filtered   codasrv
+2433    open|filtered   codasrv_se
+2583    open|filtered   mon
+3130    open|filtered   icpv2
+3205    open|filtered   isns
+3493    open|filtered   nut
+4500    open|filtered   ipsec_nat_t
+4569    open|filtered   iax
+5060    open|filtered   sip
+5061    open|filtered   sip_tls
+5353    open|filtered   mdns
+5555    open|filtered   rplay
+6346    open|filtered   gnutella_svc
+6347    open|filtered   gnutella_rtr
+6696    open|filtered   babel
+7000    open|filtered   afs3_fileserver
+7001    open|filtered   afs3_callback
+7002    open|filtered   afs3_prserver
+7003    open|filtered   afs3_vlserver
+7004    open|filtered   afs3_kaserver
+7005    open|filtered   afs3_volser
+7007    open|filtered   afs3_bos
+7008    open|filtered   afs3_update
+7009    open|filtered   afs3_rmtsys
+17001   open|filtered   sgi_cmsd
+17002   open|filtered   sgi_crsd
+17003   open|filtered   sgi_gcd
+27374   open|filtered   asp
+
+Scanned in 335.66723704338074 s
+used memory: 167.73046875 MB
+used CPU: 3.62
+open|filtered: 65331
+closed: 204
+filtered: 0 (unreachable: 0 )
+unfiletered: 0
+port    status  service
+7       open|filtered   echo
+9       open|filtered   discard
+13      open|filtered   daytime
+19      open|filtered   chargen
+21      open|filtered   fsp
+37      open|filtered   time
+49      open|filtered   tacacs
+53      open|filtered   domain
+67      open|filtered   bootps
+68      open|filtered   bootpc
+69      open|filtered   tftp
+88      open|filtered   kerberos
+111     open|filtered   sunrpc
+123     open|filtered   ntp
+137     open|filtered   netbios_ns
+138     open|filtered   netbios_dgm
+161     open|filtered   snmp
+162     open|filtered   snmp_trap
+163     open|filtered   cmip_man
+164     open|filtered   cmip_agent
+177     open|filtered   xdmcp
+213     open|filtered   ipx
+319     open|filtered   ptp_event
+320     open|filtered   ptp_general
+369     open|filtered   rpc2portmap
+370     open|filtered   codaauth2
+371     open|filtered   clearcase
+389     open|filtered   ldap
+427     open|filtered   svrloc
+443     open|filtered   https
+464     open|filtered   kpasswd
+500     open|filtered   isakmp
+512     open|filtered   biff
+513     open|filtered   who
+514     open|filtered   syslog
+517     open|filtered   talk
+518     open|filtered   ntalk
+520     open|filtered   route
+538     open|filtered   gdomap
+546     open|filtered   dhcpv6_client
+547     open|filtered   dhcpv6_server
+554     open|filtered   rtsp
+623     open|filtered   asf_rmcp
+636     open|filtered   ldaps
+646     open|filtered   ldp
+655     open|filtered   tinc
+750     open|filtered   kerberos4
+751     open|filtered   kerberos_master
+752     open|filtered   passwd_server
+779     open|filtered   moira_ureg
+853     open|filtered   domain_s
+1194    open|filtered   openvpn
+1210    open|filtered   predict
+1434    open|filtered   ms_sql_m
+1645    open|filtered   datametrics
+1646    open|filtered   sa_msg_port
+1701    open|filtered   l2f
+1812    open|filtered   radius
+1813    open|filtered   radius_acct
+2049    open|filtered   nfs
+2086    open|filtered   gnunet
+2101    open|filtered   rtcm_sc104
+2102    open|filtered   zephyr_srv
+2103    open|filtered   zephyr_clt
+2104    open|filtered   zephyr_hm
+2430    open|filtered   venus
+2431    open|filtered   venus_se
+2432    open|filtered   codasrv
+2433    open|filtered   codasrv_se
+2583    open|filtered   mon
+3130    open|filtered   icpv2
+3205    open|filtered   isns
+3493    open|filtered   nut
+4500    open|filtered   ipsec_nat_t
+4569    open|filtered   iax
+5060    open|filtered   sip
+5061    open|filtered   sip_tls
+5353    open|filtered   mdns
+5555    open|filtered   rplay
+6346    open|filtered   gnutella_svc
+6347    open|filtered   gnutella_rtr
+6696    open|filtered   babel
+7000    open|filtered   afs3_fileserver
+7001    open|filtered   afs3_callback
+7002    open|filtered   afs3_prserver
+7003    open|filtered   afs3_vlserver
+7004    open|filtered   afs3_kaserver
+7005    open|filtered   afs3_volser
+7007    open|filtered   afs3_bos
+7008    open|filtered   afs3_update
+7009    open|filtered   afs3_rmtsys
+17001   open|filtered   sgi_cmsd
+17002   open|filtered   sgi_crsd
+17003   open|filtered   sgi_gcd
+27374   open|filtered   asp
