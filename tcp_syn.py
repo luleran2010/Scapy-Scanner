@@ -2,19 +2,27 @@
 from scapy.layers.inet import IP, TCP, ICMP
 from scapy.packet import Packet
 from scapy.sendrecv import sr1, sr
+import time
+import os
+import psutil
+
+process = psutil.Process(os.getpid())
+process.cpu_percent()
+t0 = time.time()
 
 ip = '192.168.33.129'
-ports = (1,1024)
+ports = (1,65535)
 flags = 'S'
 
 ans, unans = sr(IP(dst=ip)/TCP(dport=ports, flags=flags),
-         retry=1, timeout=1, threaded=True, verbose=0)
+         retry=1, timeout=100, threaded=True, verbose=0)
 
 tcp_ans = ans.filter(lambda s, r: r.haslayer(TCP))
 
-sa_ans = tcp_ans.filter(lambda s, r: r[TCP].flags == 'SA')
+sa_ans = tcp_ans.filter(lambda s, r: r[TCP].flags.S and r[TCP].flags.A)
 sa_ports = [i.answer[IP].sport for i in sa_ans]
-sr(IP(dst=ip)/TCP(dport=sa_ports, flags='R'), timeout=1, verbose=0)
+if len(sa_ports) > 0:
+    sr(IP(dst=ip)/TCP(dport=sa_ports, flags='R'), timeout=1, verbose=0)
 
 r_ans = tcp_ans.filter(lambda s, r: r[TCP].flags.R)
            
@@ -23,6 +31,11 @@ unreachable_ans = icmp_ans.filter(
     lambda s, r: r[ICMP].type == 3 and
                  int(r[ICMP].code) in [1, 2, 3, 9, 10, 13]
 )
+
+t1 = time.time()
+print('Scanned in', t1-t0, 's')
+print('used memory:', process.memory_info().rss/1024/1024, 'MB')
+print('used CPU:', process.cpu_percent()*os.cpu_count()/100)
 
 open_ans = sa_ans
 closed_ans = r_ans
